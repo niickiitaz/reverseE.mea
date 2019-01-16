@@ -1,0 +1,39 @@
+
+{
+  
+  "module":
+  {
+      "idMod": "rx1",
+      "nom":"SGBD",
+      "UE":
+      {
+        "id_UE": "l3s1-rx",
+        "nom": "reseaux"
+      },
+      "professeur":
+      {
+        "idProf": 28,
+        "prenom": "A. Bamba",
+        "nom": "MBACKE"
+      },
+      "eleves":
+      [
+        {
+          "numCarte": "201607E0L",
+          "prenom": "Annick",
+          "nom": "IZERE"
+        },
+        {
+          "numCarte": "201607E0M",
+          "prenom": "Annette",
+          "nom": "ISABWE"
+        },
+        {
+          "numCarte": "201607E0L",
+          "prenom": "Sokhna",
+          "nom": "BA"
+        }
+
+      ]
+    }
+}

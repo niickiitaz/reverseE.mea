@@ -46,7 +46,7 @@ int testValiditeCommande(int argc, char const *argv[])
 			 		}
 			 	}
 			 	else
-			 		printf("Nombre d'arguments saisis incorrect: avec l'option -t le nombre d'arguments doit etre egal a 8\n");
+			 		printf("Veuiller respecter le format de la commande\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 			 }
 		 	else
 		 	{
@@ -65,34 +65,39 @@ int testValiditeCommande(int argc, char const *argv[])
 			 					else
 			 					{
 			 						printf("Le fichier de sortie n'est pas au bon format\n");
+			 						printf("Le format de la commande est le suivant\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 			 						return 0;
 			 					}
 			 				}
 			 				else
 			 				{
 			 					printf("Saisir l'option -o\n");
+			 					printf("Le format de la commande est le suivant\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 			 					return 0;
 			 				}
 			 			}
 			 			else
 			 			{
 			 				printf("L'input n'est pas au bon format\n");
+			 				printf("Le format de la commande est le suivant\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 			 				return 0;
 			 			}
 			 		}
 					else
 					{
 			 			printf("Veuiller specifier le mode d'importation soit -f ou -h\n");
+			 			printf("Le format de la commande est le suivant\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 			 			return 0;
 					}
 			 	}
 			 	else
-			 		printf("Nombre d'arguments saisis incorrect: sans l'option -t le nombre d'arguments doit etre egal a 7\n");
+			 		printf("Veuiller respecter le format de la commande\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 			 }
 		}
 		 else
 		{
 		 	printf("L'input doit etre soit xml soit json\n");
+		 	printf("Le format de la commande est le suivant\nnomFichierExcecutable [-i xml/json] [-t ][-h url_FluxHTTP] [-f FichierInput] -o nomFichier.svg\n");
 		 	return 0;
 		}
 	}

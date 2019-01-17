@@ -1,4 +1,4 @@
-96-#include <stdio.h>
+#include <stdio.h>
 #include <libxml/parser.h>
 #include"validationFichierXml.h"
 int validationFichierXml (char const * monFichierXml)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Modele_Entite_Association>
+	<Entites>
+		<Etudiant>
+			<Id_Etudiant></Id_Etudiant>
+			<Nom></Nom>
+			<Prenom></Prenom>
+			<Age>Age</Age>
+		</Etudiant>
+		<Cours>
+			<Nom_Cours></Nom_Cours>
+			<VolumeHoraire></VolumeHoraire>
+		</Cours>
+		<Prof>
+			<Id_Prof></Id_Prof>
+			<Nom></Nom>
+			<Prenom></Prenom>
+		</Prof>
+	</Entites>
+
+	<Associations>
+		<Suivre>
+			<Etudiant></Etudiant>
+			<Cours></Cours>
+		</Suivre>
+		<Dispenser>
+			<Prof></Prof>
+			<Cours></Cours>
+		</Dispenser>
+	</Associations>
+</Modele_Entite_Association>
